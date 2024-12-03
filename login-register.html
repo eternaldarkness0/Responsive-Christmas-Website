@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login-register.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+
+    <header class="header">
+        <!-- navbar section -->
+        <nav>
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="img/logo-white.png" class="logo-white" alt="logo-white">
+                </a>
+            </div>
+                <ul class="header-links">
+                    <li id="user-login">
+                        <a href="#"><i class="ri-user-line"></i></a>
+                    </li>
+                    <li>
+                        <a href="index.html#shop-gifts"><i class="ri-gift-line"></i></a>
+                    </li>
+                    <li>
+                        <a href="index.html#map"><i class="ri-map-pin-line"></i></a>
+                    </li>
+                </ul>
+        </nav>
+
+    <div class="main-wrapper">
+        <div class="wrapper">
+            <span id="close">
+                <i class="ri-close-large-line"></i>
+            </span>
+    
+            <div class="form-box login">
+                <h2 class="login">Login</h2>
+                <form action="#">
+    
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class="ri-mail-line"></i>
+                        </span>
+                        <input type="email" required placeholder="Enter Your Email">
+                    </div>
+    
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class="ri-lock-line"></i>
+                        </span>
+                        <input type="password" required placeholder="Enter Your Password">
+                    </div>
+    
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+    
+                    <button class="btn-form" type="submit">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an accout?<a href="#" class="register-link">Register</a></p>
+                    </div>
+    
+                </form>
+            </div>
+    
+            <div class="form-box register">
+                <h2 class="register">Registration</h2>
+                <form action="#">
+    
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class="ri-user-line"></i>
+                        </span>
+                        <input type="text" required placeholder="Enter Your Username">
+                    </div>
+    
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class="ri-mail-line"></i>
+                        </span>
+                        <input type="email" required placeholder="Enter Your Email">
+                    </div>
+    
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class="ri-lock-line"></i>
+                        </span>
+                        <input type="password" required placeholder="Enter Your Password">
+                    </div>
+    
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">I agree to the terms & conditions</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+    
+                    <button class="btn-form" type="submit">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                    </div>
+    
+                </form>
+            </div>
+        </div>
+    </div>
+    </header>
+    
+    <script src="script-form.js"></script>
+</body>
+</html>
